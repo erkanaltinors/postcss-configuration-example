@@ -22,4 +22,4 @@ I added bootstrap.css to show file size difference before and after with postcss
 - At safelist standart option, we keep selectors that starts with `display`. You can use any regex to keep selectors you need (e.g. classes added with JS). This option is a string array. 
 - There is postcss script at `package.json`. The template is as below:
 
-`post [global css file's path] -o (output) [generated css file by postcss]`
+`post [global css file's path] -o (output) [generated css file's path by postcss]`
